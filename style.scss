@@ -8,19 +8,22 @@
     min-height: 100%;
     display: flex;
     flex-direction: column;
+    max-width: 1440px;
     .gradient {
         position: relative;
         background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
-        width: 100%;
-        height: 2118px;
         margin-bottom: 50px;
+        padding-bottom: 60px;
         border-radius: 0px 0px 12px 12px;
         box-shadow: 0px 10px 0px -1px #CACADB,
             0px 20px 0px -3px #E7E7F2;
+        max-width: 1440px
+        
     }
     .back_h {
         background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
         z-index: 0;
+        max-width: 1440px;
     }
         .backh {
             position: absolute;
@@ -31,6 +34,7 @@
         display: flex;
         justify-content: space-between;
         padding: 50px 60px;
+        max-width: 1440px
     }
         .header_right {
             display: flex;
@@ -141,6 +145,7 @@
     .legal {
         text-align: center;
         margin-top: 210px;
+        max-width: 1440px;
     }
         .legal_text {
             position: relative;
@@ -163,9 +168,11 @@
             }
     .consistent {
         margin: 60px 180px 0px 180px;
+        max-width: 1440px;
     }
         .consistent_row {
             display: flex;
+            max-width: 1440px;
         }
             .consistent_list {
                 padding: 0px 60px 0px 0px;
@@ -215,6 +222,7 @@
                  }
     .services {
         margin: 100px 60px 0px 60px;
+        max-width: 1440px;
     }
         div .service a {
             text-decoration: none;
@@ -264,6 +272,7 @@
                 }
      .oleksandr {
         margin: 5px 0px 50px 0px;
+        max-width: 1440px;
      }
         .oleksandr_body {
             margin: 60px;
@@ -322,5 +331,198 @@
             .ellips_neactiv:hover {
                 fill: #643E72;
             }
-                                     
+                
+    .clients {
+        margin: 0;
+        max-width: 1440px;
+    }
+        .clients_title {
+            text-align: center;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            text-transform: uppercase;
+            color: #323264;
+            margin-bottom: 50px;
+        }
+        .clients_logo {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .clients_logo div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 360px;
+            height: 120px;
+
+        }
+
+
+            .hillel {
+                background: #1C4280;
+            }
+
+            .wanna{
+                background: #143646;
+            }
+
+            .tapgerine {
+                background:#F48B30 ;
+            }
+            .look {
+                background: #9E4DC3; ;
+            }
+            .orangear {
+                background: #FD9339 ;
+            }
+            .adtelligent {
+                background:#E2E2E4 ;
+            }
+            .clickky {
+                background:#C71C36 ;
+            }
+            .ecoleasyng {
+                background:#DCF3F9 ;
+            }
+            .infratek {
+                background:#EAEAEA ;
+            }
+            .citypark {
+                background:#282240 ;
+            }
+            .artprint {
+                background: #1D4568;
+            }
+            .ultimate {
+                background: #000000;
+            }
+    .publication {
+        padding: 30px 60px 0px 60px;
+        background: #F5F5FA;
+        max-width: 1440px;
+    }
+        .publications a {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #24A3FF;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .publications_text {
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 46px;
+            background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin: 10px 0px 30px 0px;
+        }
+        .statia {
+            display: flex;
+            margin-bottom: 30px;
+        }
+
+        .statia article {
+            margin-right: 30px;
+            background: #FFFFFF;
+            border-radius: 8px;
+        }
+        .stati_block {
+            margin:30px;
+        }
+        .stati_title {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            color: #24A3FF;
+            margin-bottom: 15px;
+            
+        }
+        .stati_date {
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            text-transform: uppercase;
+            color: #B3B3BA;
+            margin-bottom: 15px;
+        }
+        .stati_text {
+            font-size: 14px;
+            line-height: 22px;
+            color: #000000;
+            border-top: 4px solid #E6E6F0;
+            padding-top: 15px;
+        }
+    footer {
+        background: #F5F5FA;
+        max-width: 1440px;
+    }
+        .footer_block {
+            margin: 30px 60px 50px 60px;
+            padding-top: 30px;
+            border-top: 2px solid #E6E6F0;
+        }
+            .footer_text_verh {
+                margin-bottom: 20px;
+            }
+                .adres {
+                    font-size: 16px;
+                    color: #323264;
+                }
+
+                .footer_adress {
+                    margin-right: 10px;
+                }
+                .footer_adress a {
+                    text-decoration: none;
+                    font-weight: 700;
+                    font-size: 12px;
+                    line-height: 15px;
+                    text-transform: uppercase;
+                    color: #24A3FF;
+                }
+                .sign {
+                    margin-left: 790px;
+                    font-size: 16px;
+                    line-height: 20px;
+                    color: #B3B3BA;
+                }
+            .footer_text_niz {
+                display: flex;
+                align-items: center;
+            }
+                .footer_facebook {
+                    fill:#24A3FF;
+                }
+                .footer_facebook:hover{
+                    fill: red;
+                }
+                .footer_text_niz span {
+                    margin-right: 10px;
+                }
+                    .footer_text_niz span a {
+                        text-decoration: none;
+                    }
+                      .phone {
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+                     }
+                      .mail {
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 20px;
+
+                      }
+            
+
+
+
+
+
+
 }
+// @media screen and (min-width: 250px) and (max-width: 480px)

@@ -8,19 +8,21 @@
   min-height: 100%;
   display: flex;
   flex-direction: column;
+  max-width: 1440px;
 }
 .wrapper .gradient {
   position: relative;
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
-  width: 100%;
-  height: 2118px;
   margin-bottom: 50px;
+  padding-bottom: 60px;
   border-radius: 0px 0px 12px 12px;
   box-shadow: 0px 10px 0px -1px #CACADB, 0px 20px 0px -3px #E7E7F2;
+  max-width: 1440px;
 }
 .wrapper .back_h {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
   z-index: 0;
+  max-width: 1440px;
 }
 .wrapper .backh {
   position: absolute;
@@ -31,6 +33,7 @@
   display: flex;
   justify-content: space-between;
   padding: 50px 60px;
+  max-width: 1440px;
 }
 .wrapper .header_right {
   display: flex;
@@ -131,6 +134,7 @@
 .wrapper .legal {
   text-align: center;
   margin-top: 210px;
+  max-width: 1440px;
 }
 .wrapper .legal_text {
   position: relative;
@@ -152,9 +156,11 @@
 }
 .wrapper .consistent {
   margin: 60px 180px 0px 180px;
+  max-width: 1440px;
 }
 .wrapper .consistent_row {
   display: flex;
+  max-width: 1440px;
 }
 .wrapper .consistent_list {
   padding: 0px 60px 0px 0px;
@@ -204,6 +210,7 @@
 }
 .wrapper .services {
   margin: 100px 60px 0px 60px;
+  max-width: 1440px;
 }
 .wrapper div .service a {
   text-decoration: none;
@@ -250,6 +257,7 @@
 }
 .wrapper .oleksandr {
   margin: 5px 0px 50px 0px;
+  max-width: 1440px;
 }
 .wrapper .oleksandr_body {
   margin: 60px;
@@ -305,4 +313,180 @@
 }
 .wrapper .ellips_neactiv:hover {
   fill: #643E72;
+}
+.wrapper .clients {
+  margin: 0;
+  max-width: 1440px;
+}
+.wrapper .clients_title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #323264;
+  margin-bottom: 50px;
+}
+.wrapper .clients_logo {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper .clients_logo div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 120px;
+}
+.wrapper .hillel {
+  background: #1C4280;
+}
+.wrapper .wanna {
+  background: #143646;
+}
+.wrapper .tapgerine {
+  background: #F48B30;
+}
+.wrapper .look {
+  background: #9E4DC3;
+}
+.wrapper .orangear {
+  background: #FD9339;
+}
+.wrapper .adtelligent {
+  background: #E2E2E4;
+}
+.wrapper .clickky {
+  background: #C71C36;
+}
+.wrapper .ecoleasyng {
+  background: #DCF3F9;
+}
+.wrapper .infratek {
+  background: #EAEAEA;
+}
+.wrapper .citypark {
+  background: #282240;
+}
+.wrapper .artprint {
+  background: #1D4568;
+}
+.wrapper .ultimate {
+  background: #000000;
+}
+.wrapper .publication {
+  padding: 30px 60px 0px 60px;
+  background: #F5F5FA;
+  max-width: 1440px;
+}
+.wrapper .publications a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #24A3FF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.wrapper .publications_text {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 10px 0px 30px 0px;
+}
+.wrapper .statia {
+  display: flex;
+  margin-bottom: 30px;
+}
+.wrapper .statia article {
+  margin-right: 30px;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+.wrapper .stati_block {
+  margin: 30px;
+}
+.wrapper .stati_title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #24A3FF;
+  margin-bottom: 15px;
+}
+.wrapper .stati_date {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #B3B3BA;
+  margin-bottom: 15px;
+}
+.wrapper .stati_text {
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+  border-top: 4px solid #E6E6F0;
+  padding-top: 15px;
+}
+.wrapper footer {
+  background: #F5F5FA;
+  max-width: 1440px;
+}
+.wrapper .footer_block {
+  margin: 30px 60px 50px 60px;
+  padding-top: 30px;
+  border-top: 2px solid #E6E6F0;
+}
+.wrapper .footer_text_verh {
+  margin-bottom: 20px;
+}
+.wrapper .adres {
+  font-size: 16px;
+  color: #323264;
+}
+.wrapper .footer_adress {
+  margin-right: 10px;
+}
+.wrapper .footer_adress a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: #24A3FF;
+}
+.wrapper .sign {
+  margin-left: 790px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #B3B3BA;
+}
+.wrapper .footer_text_niz {
+  display: flex;
+  align-items: center;
+}
+.wrapper .footer_facebook {
+  fill: #24A3FF;
+}
+.wrapper .footer_facebook:hover {
+  fill: red;
+}
+.wrapper .footer_text_niz span {
+  margin-right: 10px;
+}
+.wrapper .footer_text_niz span a {
+  text-decoration: none;
+}
+.wrapper .phone {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+.wrapper .mail {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
 }/*# sourceMappingURL=style.css.map */
