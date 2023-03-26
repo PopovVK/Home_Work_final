@@ -8,7 +8,8 @@
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  max-width: 1440px;
+  max-width: 1920px;
+  font-family: "Montserrat", sans-serif;
 }
 .wrapper .gradient {
   position: relative;
@@ -17,23 +18,18 @@
   padding-bottom: 60px;
   border-radius: 0px 0px 12px 12px;
   box-shadow: 0px 10px 0px -1px #CACADB, 0px 20px 0px -3px #E7E7F2;
-  max-width: 1440px;
+  max-width: 1920px;
 }
 .wrapper .back_h {
-  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
-  z-index: 0;
-  max-width: 1440px;
-}
-.wrapper .backh {
-  position: absolute;
-  margin-left: 372px;
-  z-index: 0;
+  background-image: url(./image/h_bukva.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .wrapper header {
   display: flex;
   justify-content: space-between;
   padding: 50px 60px;
-  max-width: 1440px;
+  max-width: 1920px;
 }
 .wrapper .header_right {
   display: flex;
@@ -134,17 +130,14 @@
 .wrapper .legal {
   text-align: center;
   margin-top: 210px;
-  max-width: 1440px;
 }
 .wrapper .legal_text {
-  position: relative;
   font-weight: 700;
   font-size: 38px;
   line-height: 46px;
   color: #FFFFFF;
 }
 .wrapper .arrow {
-  position: relative;
   margin: 300px 50px 0px 0px;
   text-align: center;
 }
@@ -156,11 +149,11 @@
 }
 .wrapper .consistent {
   margin: 60px 180px 0px 180px;
-  max-width: 1440px;
+  max-width: 1920px;
 }
 .wrapper .consistent_row {
   display: flex;
-  max-width: 1440px;
+  max-width: 1920px;
 }
 .wrapper .consistent_list {
   padding: 0px 60px 0px 0px;
@@ -207,10 +200,11 @@
 .wrapper .text_small {
   font-size: 19px;
   line-height: 30px;
+  color: #FFFFFF;
 }
 .wrapper .services {
   margin: 100px 60px 0px 60px;
-  max-width: 1440px;
+  max-width: 1920px;
 }
 .wrapper div .service a {
   text-decoration: none;
@@ -257,12 +251,12 @@
 }
 .wrapper .oleksandr {
   margin: 5px 0px 50px 0px;
-  max-width: 1440px;
+  max-width: 1920px;
 }
 .wrapper .oleksandr_body {
   margin: 60px;
   background: #F5F5FA;
-  border-radius: 12px;
+  border-radius: 12px 12px 0px 0px;
 }
 .wrapper .oleksandr_row {
   display: flex;
@@ -316,7 +310,7 @@
 }
 .wrapper .clients {
   margin: 0;
-  max-width: 1440px;
+  max-width: 1920px;
 }
 .wrapper .clients_title {
   text-align: center;
@@ -377,7 +371,7 @@
 .wrapper .publication {
   padding: 30px 60px 0px 60px;
   background: #F5F5FA;
-  max-width: 1440px;
+  max-width: 1920px;
 }
 .wrapper .publications a {
   font-weight: 700;
@@ -433,10 +427,10 @@
 }
 .wrapper footer {
   background: #F5F5FA;
-  max-width: 1440px;
+  max-width: 1920px;
 }
 .wrapper .footer_block {
-  margin: 30px 60px 50px 60px;
+  margin: 30px 60px 30px 60px;
   padding-top: 30px;
   border-top: 2px solid #E6E6F0;
 }
@@ -489,4 +483,270 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
+}
+@media screen and (max-width: 376px) {
+  .wrapper .back_h {
+    background-image: url(./image/h-mobile.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    max-width: 375px;
+  }
+  .wrapper header {
+    padding: 10px 20px;
+  }
+  .wrapper .legal {
+    padding-bottom: 50px;
+  }
+  .wrapper .legal_text {
+    padding: 0px 40px;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 46px;
+  }
+  .wrapper .arrow {
+    margin-top: 20px;
+  }
+  .wrapper .consistent {
+    margin: 10px 5px;
+    max-width: 375px;
+  }
+  .wrapper .consistent_row {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper .consistent_list {
+    padding: 10px 10px;
+  }
+  .wrapper .consist_ul {
+    display: flex;
+    overflow: scroll;
+  }
+  .wrapper .consist_ul li {
+    padding-right: 5px;
+  }
+  .wrapper .consistent_info {
+    max-width: 375px;
+    border-top: 4px solid rgba(255, 255, 255, 0.3019607843);
+    border-left: none;
+    padding: 10px 0px 0px 10px;
+  }
+  .wrapper .consistent_info_text {
+    max-width: 375px;
+    padding: 10px 30px 10px 10px;
+  }
+  .wrapper .cards {
+    margin-top: 50px;
+    max-width: 350px;
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+  .wrapper .oleksandr_row {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper .oleksandr_info {
+    max-width: 315px;
+    margin: 30px 0px 0px 0px;
+  }
+  .wrapper .oleksandr_text {
+    max-width: 275px;
+    font-size: 25px;
+    padding-right: 20px;
+  }
+  .wrapper .oleksandr_name {
+    padding-right: 100px;
+  }
+  .wrapper .publication {
+    max-width: 375px;
+  }
+  .wrapper .statia {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper .stati img {
+    width: 225px;
+    height: 200px;
+  }
+  .wrapper footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper .footer_text_verh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrapper .footer_text_verh span img {
+    display: none;
+  }
+  .wrapper .sign {
+    margin-left: 0px;
+  }
+  .wrapper .footer_text_niz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrapper .footer_text_niz span img {
+    display: none;
+  }
+}
+@media screen and (max-width: 769px) {
+  .wrapper .consistent {
+    margin: 10px 5px;
+    max-width: 769px;
+  }
+  .wrapper .consistent_row {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper .consistent_list {
+    padding: 10px 10px;
+  }
+  .wrapper .consist_ul {
+    display: flex;
+    overflow: scroll;
+  }
+  .wrapper .consist_ul li {
+    padding-right: 5px;
+  }
+  .wrapper .consistent_info {
+    max-width: 648px;
+    border-top: 4px solid rgba(255, 255, 255, 0.3019607843);
+    border-left: none;
+    margin: 10px 0px 0px 50px;
+    padding: 10px 0px 0px 0px;
+  }
+  .wrapper .consistent_info_text {
+    max-width: 648px;
+    padding: 10px 0px 10px 0px;
+  }
+  .wrapper .card {
+    gap: 30px;
+  }
+  .wrapper .cards {
+    margin-top: 70px;
+    margin-right: 0px;
+    padding-right: 0px;
+    max-width: 290px;
+  }
+  .wrapper .oleksandr_row {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper .oleksandr_row img {
+    border-radius: 12px 12px 0px 0px;
+  }
+  .wrapper .oleksandr_info {
+    max-width: 648px;
+    margin: 30px 0px 0px 0px;
+  }
+  .wrapper .oleksandr_text {
+    max-width: 648px;
+    font-size: 25px;
+    padding-right: 20px;
+  }
+  .wrapper .oleksandr_name {
+    padding-right: 100px;
+  }
+  .wrapper .clients_logo div {
+    width: 256px;
+    height: 120px;
+  }
+  .wrapper .statia {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .wrapper #stat {
+    width: 650px;
+  }
+  .wrapper .statia article {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .wrapper .stati {
+    max-width: 310px;
+  }
+  .wrapper .stati img {
+    width: 310px;
+  }
+  .wrapper .sign {
+    margin-left: 70px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .wrapper .consistent {
+    margin: 60px 180px 0px 30px;
+  }
+  .wrapper .consistent_info_text {
+    max-width: 420px;
+  }
+  .wrapper .consistent_info {
+    padding: 10px 0px 0px 30px;
+  }
+  .wrapper .card {
+    gap: 30px;
+  }
+  .wrapper .cards {
+    margin-top: 70px;
+    margin-right: 0px;
+    padding-right: 0px;
+    max-width: 280px;
+  }
+  .wrapper .clients_logo div {
+    width: 256px;
+    height: 120px;
+  }
+  .wrapper .stati {
+    max-width: 280px;
+  }
+  .wrapper .stati img {
+    width: 280px;
+  }
+  .wrapper .sign {
+    margin-left: 180px;
+  }
+}
+@media screen and (max-width: 1921px) {
+  .wrapper header {
+    padding: 50px 160px 0px 160px;
+  }
+  .wrapper .consistent {
+    margin: 60px 150px 0px 450px;
+  }
+  .wrapper .consistent_info_text {
+    width: 750px;
+  }
+  .wrapper .services {
+    margin: 100px 180px 0px 400px;
+  }
+  .wrapper .oleksandr_info {
+    width: 1100px;
+  }
+  .wrapper .oleksandr_body {
+    margin: 0px 100px;
+  }
+  .wrapper .clients_logo div {
+    width: 430px;
+    height: 120px;
+  }
+  .wrapper .clients_logo {
+    margin: 0px 100px;
+  }
+  .wrapper .stati img {
+    width: 510px;
+  }
+  .wrapper .stati {
+    max-width: 510px;
+  }
+  .wrapper .publication {
+    padding-left: 150px;
+  }
+  .wrapper .footer_block {
+    width: 1600px;
+    margin-left: 150px;
+  }
+  .wrapper .sign {
+    margin-left: 1000px;
+  }
 }/*# sourceMappingURL=style.css.map */
